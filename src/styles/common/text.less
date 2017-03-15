@@ -1,0 +1,49 @@
+.text-grap {
+	color: @text-grap;
+}
+.text-base-color {
+	color: @color-base;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.tel {
+	color: @color-base;
+	&:link {
+		color: @color-base;;
+	}
+	&:hover {
+		color: @color-base;;
+	}
+	&:active {
+		color: @color-base;;
+	}
+
+	&:active,
+	&hover {
+		outline: 0;
+		text-decoration: none;
+	}
+}
+.mid-size {
+	font-size: 14px;
+}
+.big-size {
+	font-size: 16px;
+}
+.icon-font-big {
+	font-size: 22px;
+}
+.select-bottom-icon:after{
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: transparent url(../../assets/img/select.png) no-repeat scroll 0px 0px;
+	width: 24px;
+	height: 24px;
+	background-size: 24px auto;
+}
