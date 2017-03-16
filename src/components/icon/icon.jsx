@@ -6,6 +6,6 @@ export default class Icon extends React.Component {
     }
     render() {
         const baseClassName = `ireact-icon ireact-icon-${this.props.type}`;
-        return <span onClick={this.addClick} className={baseClassName}></span>
+        return (<span onClick={this.addClick} className={baseClassName}></span>);
     }
 }
